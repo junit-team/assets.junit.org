@@ -14,8 +14,8 @@ export default {
     viteStaticCopy({
       targets: [
         {
-          src: 'node_modules/lucide-static/icons',
-          dest: '.',
+          src: 'node_modules/lucide/dist/umd/lucide.min.js',
+          dest: 'icons',
         },
       ],
     }),
