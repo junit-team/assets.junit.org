@@ -16,6 +16,7 @@ export default {
         {
           src: 'node_modules/lucide/dist/umd/lucide.min.js',
           dest: 'icons',
+          rename: {stripBase: true},
         },
       ],
     }),
