@@ -18,6 +18,11 @@ export default {
           dest: 'icons',
           rename: {stripBase: true},
         },
+        {
+          src: 'node_modules/lucide-static/icons/*.svg',
+          dest: 'icons/lucide',
+          rename: {stripBase: true},
+        },
       ],
     }),
   ],
